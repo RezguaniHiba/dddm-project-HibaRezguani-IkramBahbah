@@ -378,7 +378,7 @@ jupyter notebook notebooks/
 ### Ordre d'exécution des Notebooks
 
 ```
-1. notebooks/00_EDA_Exploration.ipynb                        ← EDA & nettoyage
+1. notebooks/00_ETL_Audit_DataDictionary.ipynb               ← Pipeline ETL + Audit + Data Dictionary
 2. notebooks/Modele1_Prevision_Ventes_v2.ipynb               ← Régression
 3. notebooks/Modele2_SegmentationClients_RFM.ipynb           ← Clustering RFM
 4. notebooks/Modele3_Prediction_Satisfaction_Client.ipynb    ← Classification
