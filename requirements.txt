@@ -1,0 +1,33 @@
+# ============================================================
+# Data-Driven Decision Making — Olist E-Commerce Project
+# Requirements — Python >= 3.9
+# ============================================================
+
+# Data manipulation
+pandas==2.1.4
+numpy==1.26.2
+
+# Data visualization
+matplotlib==3.8.2
+seaborn==0.13.0
+plotly==5.18.0
+
+# Machine Learning
+scikit-learn==1.3.2
+xgboost==2.0.3
+
+# Model interpretability
+shap==0.44.1
+
+# Statistical tests
+scipy==1.11.4
+statsmodels==0.14.1
+
+# Jupyter
+jupyter==1.0.0
+notebook==7.0.6
+ipykernel==6.27.1
+
+# Utilities
+tqdm==4.66.1
+joblib==1.3.2

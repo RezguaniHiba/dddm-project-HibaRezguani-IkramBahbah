@@ -1,0 +1,19 @@
+# Données brutes (trop volumineuses pour Git)
+data/raw/
+
+# Environnements Python
+venv/
+env/
+.env
+__pycache__/
+*.pyc
+*.pyo
+.ipynb_checkpoints/
+
+# Système
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
