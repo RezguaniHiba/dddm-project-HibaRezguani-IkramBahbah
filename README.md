@@ -20,7 +20,9 @@
 10. [A/B Test Plan](#10--ab-test-plan)
 11. [Data Story](#11--data-story)
 12. [Démo Dashboard](#12--démo-dashboard)
-13. [Installation & Lancement](#13--installation--lancement)---
+13. [Installation & Lancement](#13--installation--lancement)
+
+---
 
 ## 1 — Domaine Métier
 
