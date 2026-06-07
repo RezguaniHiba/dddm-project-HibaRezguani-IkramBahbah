@@ -16,9 +16,9 @@
 6. [Architecture du Projet](#6--architecture-du-projet)
 7. [Dashboards Power BI](#7--dashboards-power-bi)
 8. [Modèles de Machine Learning](#8--modèles-de-machine-learning)
-9. [A/B Test Plan](#9--ab-test-plan)
-10. [Installation & Lancement](#10--installation--lancement)
-
+9. [Recommandations Métier](#9--recommandations-métier)
+10. [A/B Test Plan](#10--ab-test-plan)
+11. [Installation & Lancement](#11--installation--lancement)
 ---
 
 ## 1 — Domaine Métier
@@ -317,7 +317,115 @@ Cette approche permet de mieux comprendre les comportements d'achat et de constr
     
 ---
 
-## 9 — A/B Test Plan
+## 9 — Recommandations Métier
+
+Trois recommandations actionnables sont issues de l'analyse des dashboards et des modèles de Machine Learning.
+Un résumé complet est disponible dans [`docs/Recommandations.pdf`](docs/Recommandations.pdf)
+
+### 9.1 — Réduire les délais de livraison dans les régions les moins performantes
+
+**Constat**
+
+L'analyse logistique révèle des écarts importants entre les régions :
+- Les régions **RR, AP et AM** présentent les délais moyens les plus élevés, atteignant jusqu'à **30 jours**.
+- Les retards les plus importants sont observés dans les régions **AC, RO et AM**.
+- Ces délais sont significativement supérieurs à ceux des régions performantes, où la livraison est effectuée en **moins de deux semaines**.
+
+**Action proposée**
+- Optimiser les itinéraires de livraison dans les régions les plus éloignées
+- Renforcer les partenariats avec les transporteurs locaux
+- Mettre en place des centres logistiques régionaux
+- Anticiper les expéditions vers les zones à forte contrainte géographique
+
+**Impact attendu**
+- Réduction des délais moyens de livraison
+- Diminution des retards dans les régions les moins performantes
+- Amélioration de l'expérience client
+- Augmentation de la satisfaction client (facteur clé identifié par le Modèle 3)
+- Réduction du risque d'annulation ou de réclamation lié aux retards
+
+---
+
+### 9.2 — Renforcer les campagnes marketing dans les villes à forte valeur
+
+**Constat**
+
+La majorité du chiffre d'affaires est concentrée dans quelques grandes villes :
+
+| Ville | Chiffre d'affaires |
+|-------|-------------------|
+| São Paulo | ~1,86 M R$ |
+| Rio de Janeiro | ~0,95 M R$ |
+| Belo Horizonte | ~0,34 M R$ |
+
+Ces trois villes représentent à elles seules plus de **3,1 M R$** de revenus.
+
+**Action proposée**
+- Campagnes marketing géolocalisées
+- Promotions personnalisées
+- Programmes de fidélisation
+- Recommandations de produits basées sur l'historique d'achat
+
+**Impact attendu**
+
+Une augmentation modérée de **5 %** des ventes sur ces villes générerait :
+
+$$3{,}15M \times 5\% \approx 157\,000\,R\$$$
+
+- Gain potentiel supérieur à **157 000 R$**
+- Hausse du panier moyen
+- Augmentation de la fréquence d'achat
+- Fidélisation accrue des meilleurs clients
+
+---
+
+### 9.3 — Mettre en avant les catégories les plus rentables
+
+**Constat**
+
+Les catégories les plus performantes sont :
+
+| Catégorie | Chiffre d'affaires |
+|-----------|-------------------|
+| beleza saude | 1,23 M R$ |
+| relogios presentes | 1,16 M R$ |
+| cama mesa banho | 1,02 M R$ |
+
+Ces trois catégories génèrent ensemble environ **3,41 M R$**, soit près de **26 %** du chiffre d'affaires total.
+
+**Action proposée**
+- Mettre ces catégories en avant sur la page d'accueil
+- Augmenter les budgets publicitaires associés
+- Développer des offres promotionnelles ciblées
+- Mettre en place des stratégies de cross-selling
+
+**Impact attendu**
+
+Une augmentation de **5 %** des ventes sur ces catégories représenterait :
+
+$$3{,}41M \times 5\% \approx 170\,000\,R\$$$
+
+- Gain potentiel d'environ **170 000 R$**
+- Meilleure rentabilité marketing
+- Augmentation du chiffre d'affaires global
+
+---
+
+### 💰 Synthèse des Gains Potentiels
+
+| Recommandation | Gain estimé |
+|----------------|-------------|
+| Optimisation logistique | ~219 000 R$ |
+| Marketing ciblé — villes stratégiques | ~157 000 R$ |
+| Mise en avant des catégories rentables | ~170 000 R$ |
+
+$$219\,000 + 157\,000 + 170\,000 = 546\,000\,R\$$$
+
+> 🎯 **Gain potentiel estimé : environ 550 000 R$ par an**, sans investissement technologique majeur — uniquement grâce à l'exploitation des insights obtenus via les dashboards analytiques.
+
+---
+
+## 10 — A/B Test Plan
 
 **Hypothèse :** Une réduction de 30% des frais de livraison augmente-t-elle significativement le nombre de commandes, le panier moyen et le taux de conversion ?
 
@@ -342,7 +450,7 @@ Cette approche permet de mieux comprendre les comportements d'achat et de constr
 
 ---
 
-## 10 — Installation & Lancement
+## 11 — Installation & Lancement
 
 ### Prérequis
 
