@@ -18,8 +18,9 @@
 8. [Modèles de Machine Learning](#8--modèles-de-machine-learning)
 9. [Recommandations Métier](#9--recommandations-métier)
 10. [A/B Test Plan](#10--ab-test-plan)
-11. [Installation & Lancement](#11--installation--lancement)
----
+11. [Data Story](#11--data-story)
+12. [Démo Dashboard](#12--démo-dashboard)
+13. [Installation & Lancement](#13--installation--lancement)---
 
 ## 1 — Domaine Métier
 
@@ -450,7 +451,25 @@ $$219\,000 + 157\,000 + 170\,000 = 546\,000\,R\$$$
 
 ---
 
-## 11 — Installation & Lancement
+## 11 — Data Story
+
+La Data Story présente de manière narrative les principaux insights issus de l'analyse des données Olist, structurée autour des trois axes décisionnels : Direction, Marketing et Opérations.
+
+📊 **Formats disponibles :**
+- 📑 [Voir la Data Story (PDF)](docs/DDDM_DataStory_Olist.pdf)
+- 📊 [Télécharger la présentation (PPTX)](docs/DDDM_DataStory_Olist.pptx)
+
+---
+
+## 12 — Démo Dashboard
+
+Une démonstration vidéo du dashboard Power BI illustrant les différentes vues interactives et les fonctionnalités de filtrage.
+
+🎬 **[Voir la démo vidéo](dashboard/Dashboard_DDDM_Demo.mp4)**
+
+---
+
+## 13 — Installation & Lancement
 
 ### Prérequis
 
